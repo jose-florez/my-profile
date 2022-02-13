@@ -1,0 +1,88 @@
+img {
+    width: 200px;
+}
+
+body {
+	background: linear-gradient(15deg, skyblue, transparent);
+	color: rgb(50, 50, 50);
+	font-family: helvetica;
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background-color: lightgrey;
+}
+
+/*custom design with class*/
+	.container {
+		width: 700px;
+		margin: 40px auto;
+	}
+
+	@media (max-width: 760px){
+		.container{
+			width: 600px
+		}
+	}
+
+	@media (max-width: 500px){
+		.container{
+			width: 400px
+		}
+	}
+
+
+
+	.box-white {
+		background-color: white;
+		padding: 40px;
+		box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	    border-radius: 4px;
+	    margin: 20px 0px;
+	    text-align: center;
+	}
+
+	.img-circle {
+		border-radius: 50%;
+	}
+
+	.btn-goldenrod {
+		background-color: goldenrod;
+		color: white;
+		padding: 15px 20px;
+		border-radius: 4px;
+	}
+
+	.btn-goldenrod: hover {
+		background-color: grey;
+		color: black;
+	}
+
+	.list-horizontal {
+		list-style: none;
+		padding-left: 0px;
+	}
+
+	.list-horizontal li{
+		display: inline;
+		padding: 10px;
+	}
+
+	.list-horizontal i{
+		font-size: 50px;
+		color: rgb(138, 58, 185);
+	}
+
+	.list-horizontal i:hover{
+		color: lightgrey; 
+	}
+
+/*design adjustments with id*/
+	#introduction p{
+		margin-bottom: 40px;
+	}
